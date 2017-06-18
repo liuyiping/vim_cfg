@@ -1,0 +1,6 @@
+--langdef=MYJSX
+--langmap=MYJSX:.jsx
+--regex-MYJSX=/^[ \t]*function[ \t]+([a-zA-Z0-9_\.]+)/\1/m,function/
+--regex-MYJSX=/^export[ \t]+([a-zA-Z0-9_\.]+)/\1/e,default/
+--regex-MYJSX=/^export default class[ \t]+([a-zA-Z0-9_\.]+)/\1/e,export/
+
